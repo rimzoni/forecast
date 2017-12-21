@@ -22,6 +22,7 @@ Implemented using:
 
 * Implement autocomplete for Cities on home screen.
 * Handle errors if city doesnt exist on forecast page.
+* cover code with test! testing!
 
 ## Install
 ```sh
