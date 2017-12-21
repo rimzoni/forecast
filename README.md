@@ -18,6 +18,11 @@ Implemented using:
  * Google Geocode
  * Unit tests with [mocha](https://mochajs.org) + [chai](http://chaijs.com) - next release 
 
+## Future Development
+
+* Implement autocomplete for Cities on home screen.
+* Handle errors if city doesnt exist on forecast page.
+
 ## Install
 ```sh
 $ npm install
