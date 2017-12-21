@@ -1,0 +1,20 @@
+{
+  "apps" : [
+      {
+          "name" : "weather-forecast-app",
+          "script" : "server.js",
+          "merge_logs" : true,
+          "exec_mode" : "cluster_mode",
+          "instances" : 1,
+          "env" : {
+              "NODE_ENV" : "production"
+          },
+          "env_staging" : {
+              "NODE_ENV" : "staging"
+          },
+          "env_development" : {
+              "NODE_ENV" : "development"
+          }
+      }
+  ]
+}
