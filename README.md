@@ -29,6 +29,11 @@ Implemented using:
 $ npm install
 ```
 
+## Set API keys
+```sh
+$ src/constants/index.js # set OPENWEATHERMAP_API_KEY && GEO_API_KEY or set it out in env vars
+```
+
 ## Run - Development
 ```sh
 $ npm run dev       # builds and hot reloads on changes
